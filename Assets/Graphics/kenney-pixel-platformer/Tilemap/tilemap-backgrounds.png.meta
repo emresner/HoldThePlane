@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: b888af4f6f0eaa64e8e11e186ec5e9b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8523463431782284839
+    second: tilemap-backgrounds_0
+  - first:
+      213: -7804485613704085597
+    second: tilemap-backgrounds_1
+  - first:
+      213: -4791707026126036179
+    second: tilemap-backgrounds_2
+  - first:
+      213: -4213131736387900552
+    second: tilemap-backgrounds_3
+  - first:
+      213: -7958990423193953562
+    second: tilemap-backgrounds_4
+  - first:
+      213: -684465467591590235
+    second: tilemap-backgrounds_5
+  - first:
+      213: -7788966371411729588
+    second: tilemap-backgrounds_6
+  - first:
+      213: -1826286101037105372
+    second: tilemap-backgrounds_7
+  - first:
+      213: 199195203618375034
+    second: tilemap-backgrounds_8
+  - first:
+      213: 2443519981283443392
+    second: tilemap-backgrounds_9
+  - first:
+      213: -1348291558716953026
+    second: tilemap-backgrounds_10
+  - first:
+      213: 5765279534758284815
+    second: tilemap-backgrounds_11
+  - first:
+      213: -7027977152163780206
+    second: tilemap-backgrounds_12
+  - first:
+      213: -1778932987755098747
+    second: tilemap-backgrounds_13
+  - first:
+      213: 4770261942167674150
+    second: tilemap-backgrounds_14
+  - first:
+      213: -5573692905615531435
+    second: tilemap-backgrounds_15
+  - first:
+      213: 4916015305879872947
+    second: tilemap-backgrounds_16
+  - first:
+      213: 8223653770730284090
+    second: tilemap-backgrounds_17
+  - first:
+      213: 5892257113609104191
+    second: tilemap-backgrounds_18
+  - first:
+      213: 368286334322239457
+    second: tilemap-backgrounds_19
+  - first:
+      213: -1398486692274438936
+    second: tilemap-backgrounds_20
+  - first:
+      213: -265095897852792306
+    second: tilemap-backgrounds_21
+  - first:
+      213: -6306680540390944888
+    second: tilemap-backgrounds_22
+  - first:
+      213: -5830144969393810128
+    second: tilemap-backgrounds_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blue_Ground_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5042af33f837ee4cb821521355abf75
+      internalID: -1945448001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Ground_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e801fbcdad2434dbc61f334068570d
+      internalID: 184451924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Ground_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c3e0972dbc6824797b68138530d429
+      internalID: 44109439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Ground_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246e2149bf3a9944b9dacde9047c8dac
+      internalID: -666243074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_Ground_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f8c6bbf1b4e3f24895869b10ed7fd6d
+      internalID: 1270559259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_Ground_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c6dc9c6d6d3414e87c1c9a76da4cf3
+      internalID: 929372755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Ground_0
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab45fa8786c1114196c6e585c1c8d54
+      internalID: 2095505020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Ground_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcff233d9ded8194f9004630bf00e8a7
+      internalID: 534146550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Horizon_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 27
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75bc3120636f1f4486e3a685754fa08
+      internalID: -1457211234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Horizon_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 27
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f4ba18faf6b5b4a95ca2f9a16536da
+      internalID: -478682315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Horizon_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 27
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d1f30c156fe964f8cea948bf877efd
+      internalID: -944007131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Horizon_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 27
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b944ad71ccd7247a10a28ca8d2e40c
+      internalID: 2036472606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_Horizon_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 27
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e92bb21ca984146b53d9fb57eedc4b
+      internalID: 876108022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_Horizon_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 27
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781db3728dce66c4a88d8b5762fbfea3
+      internalID: 82057839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Horizon_0
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 27
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad9483a9cb46984f91c4b4450921d60
+      internalID: 338552988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Horizon_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 27
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b4cbbb145655940970a3c8571246f4
+      internalID: -2035552728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Sky_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 53
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d627c1a4e498b4fb4c5bac90dadd4e
+      internalID: -1428676087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Sky_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 53
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25f51eaccddbd34a93f803373a06766
+      internalID: 1012843560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Sky_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 53
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc04cb9a2ae054646ac576e9bfe089a6
+      internalID: -1635280210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blue_Sky_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 53
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf61bf98da5f3347b50ee8212d1c3a6
+      internalID: 1068235510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_Sky_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 53
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebc2ac874672f340aacf6becf08d540
+      internalID: -1882106678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Orange_Sky_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 53
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990a2fc8e127ba04583bf834cdfec3c8
+      internalID: -1437144562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Sky_0
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 53
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58fe972b2de8be4f8b9aae198ba184b
+      internalID: 1039600327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Green_Sky_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 53
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e81f63fce9c1d43bf4d83d1027b9db
+      internalID: -1286074712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: fdc627740c95cda42ab4bfce9c06a824
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Blue_Ground_0: -1945448001
+      Blue_Ground_1: 184451924
+      Blue_Ground_2: 44109439
+      Blue_Ground_3: -666243074
+      Blue_Horizon_0: -1457211234
+      Blue_Horizon_1: -478682315
+      Blue_Horizon_2: -944007131
+      Blue_Horizon_3: 2036472606
+      Blue_Sky_0: -1428676087
+      Blue_Sky_1: 1012843560
+      Blue_Sky_2: -1635280210
+      Blue_Sky_3: 1068235510
+      Green_Ground_0: 2095505020
+      Green_Ground_1: 534146550
+      Green_Horizon_0: 338552988
+      Green_Horizon_1: -2035552728
+      Green_Sky_0: 1039600327
+      Green_Sky_1: -1286074712
+      Orange_Ground_0: 1270559259
+      Orange_Ground_1: 929372755
+      Orange_Horizon_0: 876108022
+      Orange_Horizon_1: 82057839
+      Orange_Sky_0: -1882106678
+      Orange_Sky_1: -1437144562
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185253dfdc6d79043bb8b22e7debf683, type: 3}
+  m_Name: PlaneSkinCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::PlaneSkinCatalog
+  skins:
+  - id: Blue
+    flight: {fileID: 9100000, guid: d0574c591f6f0014abc6682755c22a59, type: 2}
+    preview: {fileID: 9100000, guid: d10dc55c707d76f40aa75159efe97dbc, type: 2}
+  - id: Green
+    flight: {fileID: 22100000, guid: 9d940050e56f0344dba34279e998a7ef, type: 2}
+    preview: {fileID: 22100000, guid: a2a142a5f7d40164fa682af4f050c4ca, type: 2}
+  - id: Red
+    flight: {fileID: 22100000, guid: 04a0017d80fd6064db5b8084d6aef4ec, type: 2}
+    preview: {fileID: 22100000, guid: 2c4cbdbbb1a3d0944881ddb23e97bd7f, type: 2}
+  - id: Yellow
+    flight: {fileID: 22100000, guid: 9596e3c8891895844b292abfe60e23cb, type: 2}
+    preview: {fileID: 22100000, guid: 636d40b5847e24342a5b2182489f013f, type: 2}

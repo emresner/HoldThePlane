@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65c080cdf0012874698e59749c067a4a, type: 3}
+  m_Name: Theme_Orange
+  m_EditorClassIdentifier: 
+  displayName: Orange
+  sections:
+  - {fileID: 6371691774849700552, guid: 13e3fe6ab69056b47b26dc41ad32e66c, type: 3}
+  - {fileID: 1811937342722234508, guid: 517eded01b4e4aa4e863cc2a01a0ec02, type: 3}
+  - {fileID: 1505515700631339648, guid: d1f504fcfb6cbbf42a4a8126fc7cf953, type: 3}
+  - {fileID: 6155952948154012633, guid: 56f94e311d4508547bf456fd67dd80ff, type: 3}
+  - {fileID: 374328757583219405, guid: 1e376762c7856d94abfb4053d466f748, type: 3}
+  - {fileID: 6866370375086277682, guid: 766d759cf8d3b6341b63eb65e8c66f82, type: 3}
+  - {fileID: 4909817863823061720, guid: 6084547067206d9478a62bf5b118a512, type: 3}
+  groundSprite: {fileID: -7489311938922866436, guid: 07c27f6d922d5704fb3548aef7dd810d, type: 3}
+  fillColor: {r: 0.5921569, g: 0.44313726, b: 0.2901961, a: 1}
+  skyColor: {r: 0.9843137, g: 0.8235294, b: 0.62352943, a: 1}

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f70ed709648b243a0a3f46c74caa98, type: 3}
+  m_Name: SoundCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::SoundCatalog
+  sounds:
+  - id: 0
+    layers:
+    - clip: {fileID: 8300000, guid: 38847398fdfc2ad49b94fd8ab29dec2c, type: 3}
+      volume: 0.4
+      pitchRange: {x: 0.95, y: 1.05}
+      delay: 0
+    - clip: {fileID: 8300000, guid: 30157c46617d9d34a84cffdea570e4e1, type: 3}
+      volume: 0.3
+      pitchRange: {x: 0.95, y: 1.05}
+      delay: 0.02
+    minInterval: 0
+  - id: 1
+    layers:
+    - clip: {fileID: 8300000, guid: e59d911cfebc7874f8050a84ce3b9891, type: 3}
+      volume: 0.03
+      pitchRange: {x: 0.95, y: 1.05}
+      delay: 0
+    minInterval: 0.08
+  - id: 2
+    layers:
+    - clip: {fileID: 8300000, guid: edd3999a30c51cb46b392d98efe58154, type: 3}
+      volume: 0.25
+      pitchRange: {x: 1, y: 1}
+      delay: 0
+    minInterval: 0
+  - id: 3
+    layers:
+    - clip: {fileID: 8300000, guid: e59d911cfebc7874f8050a84ce3b9891, type: 3}
+      volume: 0.1
+      pitchRange: {x: 1.12, y: 1.12}
+      delay: 0
+    minInterval: 0
+  - id: 4
+    layers:
+    - clip: {fileID: 8300000, guid: 4efaf46eee73dd344a45d016e9d53922, type: 3}
+      volume: 0.65
+      pitchRange: {x: 1, y: 1}
+      delay: 0
+    minInterval: 0
+  - id: 5
+    layers:
+    - clip: {fileID: 8300000, guid: abd8febdce8985143b636baab5723e5a, type: 3}
+      volume: 0.65
+      pitchRange: {x: 1, y: 1}
+      delay: 0
+    minInterval: 0
+  - id: 6
+    layers:
+    - clip: {fileID: 8300000, guid: f6e0d1089666b6f4dbba058721b57d07, type: 3}
+      volume: 0.65
+      pitchRange: {x: 1, y: 1}
+      delay: 0
+    minInterval: 0
+  - id: 7
+    layers:
+    - clip: {fileID: 8300000, guid: 86648bfdc562f6a4d83557f41513c10b, type: 3}
+      volume: 0.1
+      pitchRange: {x: 1, y: 1}
+      delay: 0
+    minInterval: 0
+  - id: 8
+    layers:
+    - clip: {fileID: 8300000, guid: 4efaf46eee73dd344a45d016e9d53922, type: 3}
+      volume: 0.15
+      pitchRange: {x: 1.25, y: 1.25}
+      delay: 0
+    minInterval: 0

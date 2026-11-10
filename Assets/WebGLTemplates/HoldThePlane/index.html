@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Fill the whole screen on phones, no pinch zoom, and let the game draw under the notch (the game handles the safe area itself). -->
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="theme-color" content="#000000">
+    <title>{{{ PRODUCT_NAME }}}</title>
+    <!-- An empty icon, so the browser does not ask the server for a favicon file that does not exist. -->
+    <link rel="icon" href="data:,">
+    <style>
+      html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; }
+      body { position: fixed; inset: 0; font-family: Arial, Helvetica, sans-serif; color: #fff; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+      /* The canvas is centred and sized by fitCanvas() below: it fills the window, but never gets narrower than 4:3 or wider than 20:9
+         (the screen shapes the game was designed and tested for). Outside that range the rest of the window stays black. */
+      #unity-canvas { display: block; position: fixed; background: #000; touch-action: none; outline: none; }
+      /* Phones held upright: ask for landscape. */
+      #rotate { display: none; position: fixed; inset: 0; z-index: 10; background: #000; align-items: center; justify-content: center; text-align: center; font-size: 22px; padding: 24px; }
+      @media (orientation: portrait) and (pointer: coarse) { #rotate { display: flex; } }
+      #loading { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #000; }
+      #loading-title { font-size: 28px; font-weight: bold; letter-spacing: 2px; margin-bottom: 24px; }
+      #progress-empty { width: min(60vw, 360px); height: 10px; background: #333; border-radius: 5px; overflow: hidden; }
+      #progress-full { width: 0%; height: 100%; background: #f2c94c; }
+      #error { display: none; position: fixed; left: 0; right: 0; bottom: 0; padding: 12px 16px; background: #b00020; font-size: 14px; }
+    </style>
+  </head>
+  <body>
+    <canvas id="unity-canvas" tabindex="-1"></canvas>
+    <div id="loading">
+      <div id="loading-title">{{{ PRODUCT_NAME }}}</div>
+      <div id="progress-empty"><div id="progress-full"></div></div>
+    </div>
+    <div id="error"></div>
+    <div id="rotate">Please turn your phone sideways to play.</div>
+    <script>
+      var canvas = document.querySelector("#unity-canvas");
+      var loading = document.querySelector("#loading");
+      var progressBar = document.querySelector("#progress-full");
+      var errorBox = document.querySelector("#error");
+
+      // Keep the canvas between 4:3 and 20:9 and centred. Unity notices the canvas size change by itself and resizes the game.
+      var MIN_ASPECT = 4 / 3;
+      var MAX_ASPECT = 20 / 9;
+      function fitCanvas() {
+        var w = window.innerWidth;
+        var h = window.innerHeight;
+        var aspect = w / h;
+        var canvasWidth = w;
+        var canvasHeight = h;
+        if (aspect < MIN_ASPECT) {
+          canvasHeight = w / MIN_ASPECT;
+        } else if (aspect > MAX_ASPECT) {
+          canvasWidth = h * MAX_ASPECT;
+        }
+        canvas.style.width = Math.floor(canvasWidth) + "px";
+        canvas.style.height = Math.floor(canvasHeight) + "px";
+        canvas.style.left = Math.floor((w - canvasWidth) / 2) + "px";
+        canvas.style.top = Math.floor((h - canvasHeight) / 2) + "px";
+      }
+      window.addEventListener("resize", fitCanvas);
+      fitCanvas();
+
+      // No right-click menu on the game.
+      canvas.addEventListener("contextmenu", function (event) { event.preventDefault(); });
+
+      function showError(message) {
+        errorBox.textContent = message;
+        errorBox.style.display = "block";
+      }
+
+      var buildUrl = "Build";
+      var config = {
+        arguments: [],
+        dataUrl: buildUrl + "/{{{ DATA_FILENAME }}}",
+        frameworkUrl: buildUrl + "/{{{ FRAMEWORK_FILENAME }}}",
+#if USE_THREADS
+        workerUrl: buildUrl + "/{{{ WORKER_FILENAME }}}",
+#endif
+#if USE_WASM
+        codeUrl: buildUrl + "/{{{ CODE_FILENAME }}}",
+#endif
+#if SYMBOLS_FILENAME
+        symbolsUrl: buildUrl + "/{{{ SYMBOLS_FILENAME }}}",
+#endif
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: {{{ JSON.stringify(COMPANY_NAME) }}},
+        productName: {{{ JSON.stringify(PRODUCT_NAME) }}},
+        productVersion: {{{ JSON.stringify(PRODUCT_VERSION) }}},
+        // Draw at most 2 pixels per CSS pixel: sharp enough, and much lighter on phones with 3x screens.
+        devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
+        // Warnings are ignored; errors are shown in the red bar.
+        showBanner: function (message, type) { if (type === "error") { showError(message); } },
+      };
+
+      var script = document.createElement("script");
+      script.src = buildUrl + "/{{{ LOADER_FILENAME }}}";
+      script.onload = function () {
+        createUnityInstance(canvas, config, function (progress) {
+          progressBar.style.width = (100 * progress) + "%";
+        }).then(function () {
+          loading.style.display = "none";
+        }).catch(function (message) {
+          showError(String(message));
+        });
+      };
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+# Unity-generated folders (recreated automatically when the project is opened)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Build output (the web build is published on the gh-pages branch instead)
+/[Bb]uild/
+/[Bb]uilds/
+/*.apk
+/*.aab
+/*.unitypackage
+
+# IDE and OS files
+.vs/
+.idea/
+.vscode/
+.gradle/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.bak
+
+# Local credentials (none are used in this project)
+.env
+.env.*
+*.keystore
+*.jks
+*.pfx
+*.p12

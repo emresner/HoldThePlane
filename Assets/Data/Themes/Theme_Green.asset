@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65c080cdf0012874698e59749c067a4a, type: 3}
+  m_Name: Theme_Green
+  m_EditorClassIdentifier: 
+  displayName: Green
+  sections:
+  - {fileID: 5252957938614763971, guid: 8090e5f239a93f1438cc6f158df3fdd4, type: 3}
+  - {fileID: 4446074240556387374, guid: 1267e1983c2dd774da25a77340100ece, type: 3}
+  - {fileID: 7252166536542354589, guid: a465502b51a52da4cad895bc5a07dba6, type: 3}
+  - {fileID: 6239295545142299612, guid: 9c6a5003b7aa1774e816783b905b331e, type: 3}
+  - {fileID: 4212807187283444734, guid: 7dd7064a25cb24345995fbfc4c5fa6bb, type: 3}
+  - {fileID: 238051109742481990, guid: 3d769c5f84c01fb49b567bfa571ba121, type: 3}
+  - {fileID: 4483242232721326532, guid: 6bc98d5e4bf288f42bbe8d4d930c85e5, type: 3}
+  groundSprite: {fileID: 1691401979234231343, guid: f8866b9004f28ac4da363488a6a15099, type: 3}
+  fillColor: {r: 0.5921569, g: 0.44313726, b: 0.2901961, a: 1}
+  skyColor: {r: 0.63529414, g: 0.8862745, b: 0.7176471, a: 1}
