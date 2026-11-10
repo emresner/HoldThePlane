@@ -22,7 +22,7 @@
 You're a small biplane in an endless cave run. Press and hold to rise, release to fall, and thread through spikes that hang from the ceiling and grow from the ground. Grab stars for bonus points, chase a new best score, and watch the world speed up the longer you survive. 🌥️
 
 > [!TIP]
-> Runs in any modern browser, desktop or phone (landscape). No install, no account, no tracking.
+> Runs in any modern browser, desktop or phone (landscape). No install, no account.
 
 ## 🎮 Controls
 
@@ -89,7 +89,7 @@ Assets/
 
 ## 🙏 Credits
 
-Huge thanks to **[Kenney](https://kenney.nl)** 💛 for releasing his art and audio as **[CC0](https://creativecommons.org/publicdomain/zero/1.0/)**. Without these packs this game wouldn't look or sound like anything. Please consider [supporting him](https://donate.kenney.nl).
+Huge thanks to **[Kenney](https://kenney.nl)** 💛 for releasing his art and audio as **[CC0](https://creativecommons.org/publicdomain/zero/1.0/)**. Without these packs this game wouldn't look or sound like anything.
 
 The UI font is Kenney Future; TextMeshPro's default font is Liberation Sans (SIL OFL).
 
